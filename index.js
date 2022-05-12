@@ -1,15 +1,13 @@
-function receivesAFunction(cb){
-    return cb()
+function  receivesAFunction(callback){
+  callback()
+}
+function returnsANamedFunction() {
+  return function name() {
+
   }
-  
-  
-  function returnsANamedFunction(){
-    return function test(){
-    }
+}
+function returnsAnAnonymousFunction() {
+  return function() {
+    
   }
-  
-  
-  function returnsAnAnonymousFunction(){
-    return function(){
-    }
-  }
+}
